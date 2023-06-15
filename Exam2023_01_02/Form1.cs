@@ -82,10 +82,10 @@ namespace Exam2023_01_02
 
             if (!string.IsNullOrEmpty(searchTerm))
             {
-                // 단어 검색
+                // 단어 검색 단어를 배열로 나눈뒤에 있는지 확인
                 string[] words = file.fileContent.Split(new[] { searchTerm }, StringSplitOptions.RemoveEmptyEntries);
 
-                int wordCount = words.Length - 1;
+                int wordCount = words.Length - 1; //wordCount 같은 것 갯수 체크, 처음 공백 -1 반영
 
                 if (wordCount > 0)
                 {
@@ -102,7 +102,7 @@ namespace Exam2023_01_02
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e) //최초 단어 변경
         {
             string searchTerm = textBox2.Text;
             string replacementText = textBox3.Text;
@@ -128,7 +128,7 @@ namespace Exam2023_01_02
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e) //모든 단어 변경
         {
             string searchTerm = textBox2.Text;
             string replacementText = textBox3.Text;
