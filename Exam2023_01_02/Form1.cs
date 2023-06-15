@@ -14,7 +14,7 @@ namespace Exam2023_01_02
     public partial class Form1 : Form
     {
         private File file;
-        class File
+        class File //파일 관리 클래스
         {
             public string fileContent = string.Empty;
             public string filePath = string.Empty;
