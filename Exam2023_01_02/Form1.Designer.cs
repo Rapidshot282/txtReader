@@ -50,7 +50,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(22, 24);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(6);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(704, 32);
             this.comboBox1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(760, 16);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 46);
             this.button1.TabIndex = 1;
@@ -70,7 +70,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(24, 170);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(6);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(929, 490);
@@ -118,7 +118,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(26, 74);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(6);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(182, 35);
             this.textBox2.TabIndex = 7;
@@ -126,7 +126,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(223, 70);
-            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button2.Margin = new System.Windows.Forms.Padding(6);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(139, 46);
             this.button2.TabIndex = 8;
@@ -147,7 +147,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(760, 70);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(6);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(182, 35);
             this.textBox3.TabIndex = 10;
@@ -155,7 +155,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(596, 112);
-            this.button3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button3.Margin = new System.Windows.Forms.Padding(6);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(158, 46);
             this.button3.TabIndex = 11;
@@ -166,7 +166,7 @@
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(760, 112);
-            this.button4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button4.Margin = new System.Windows.Forms.Padding(6);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(158, 46);
             this.button4.TabIndex = 12;
@@ -186,7 +186,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(656, 694);
+            this.label7.Location = new System.Drawing.Point(662, 696);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(23, 24);
             this.label7.TabIndex = 14;
@@ -222,7 +222,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

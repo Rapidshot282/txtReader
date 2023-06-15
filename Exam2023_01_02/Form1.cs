@@ -72,8 +72,8 @@ namespace Exam2023_01_02
 
             // 파일 메타데이터 표시
             label6.Text = file.fileSize + "byte";
-            label7.Text = file.fileCountWord + "개";
-            label8.Text = file.fileCountChar + "자";
+            label7.Text = file.fileCountChar + "자";
+            label8.Text = file.fileCountWord + "개";
         }
 
         private void button2_Click(object sender, EventArgs e)
